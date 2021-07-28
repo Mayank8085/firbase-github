@@ -11,9 +11,9 @@ const Header=()=>{
     const toggle=()=> setIsOpen(!isOpen)
 
     return(
-        <Navbar color="info" light expand="md" style={{height:"60px", boxSizing:"border-box"}} >
+        <Navbar color="info" light expand="md"  >
             <NavbarBrand>
-                <Link to="/" className="text-white"> GIT API & FireBase</Link>
+                <Link to="/" className="text-white"> GIT API with FireBase</Link>
             </NavbarBrand> 
             <NavbarText className="text-white">
                 {
